@@ -1,0 +1,12 @@
+-- import: fifthtry.github.io/easy-contest/components/header as h
+
+-- component page:
+caption page-title: Easy Contest
+
+-- ds.page: $page.page-title
+
+-- h.header:
+
+-- end: ds.page
+
+-- end: page

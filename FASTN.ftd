@@ -3,8 +3,10 @@
 -- fastn.package: fifthtry.github.io/easy-contest
 favicon: /favicon.ico
 
+-- fastn.dependency: ui.fifthtry.com
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
 -- fastn.dependency: fastn-community.github.io/midnight-storm-typography
+-- fastn.dependency: fastn-community.github.io/doc-site
 
 -- fastn.dependency: fastn-community.github.io/design-system
 provided-via: fifthtry.github.io/easy-contest/ds

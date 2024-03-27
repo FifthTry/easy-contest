@@ -22,8 +22,8 @@
     },
     "components/header.ftd": {
       "name": "components/header.ftd",
-      "checksum": "9B2C664F66ED2948E2449159B4C2390473F5A36C95116B0D119CA93EBAD051B6",
-      "size": 989
+      "checksum": "E2205EAC21B1D3C296B9185AFD4CF0091517CE16C939729EA17EF7CE3B067474",
+      "size": 1069
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -57,5 +57,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "3BF6DD1E36DBDB0E45D1FE09382B0317DC91AF0DE1CFACBF0C2069D04D5F490B"
+  "checksum": "D6975EFF1C9E30042B8F71992C949C76EA34A7A71A56057F373586EE71E0CB49"
 }

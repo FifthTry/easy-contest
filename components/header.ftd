@@ -25,7 +25,8 @@ inset: $ds.spaces.inset-wide.medium
             spacing: $ds.spaces.horizontal-gap.medium
 
                 -- ds.copy-regular: Rules
-                link: /rules/
+                ;; use relative urls so that it works on github pages deployment
+                link: rules/
 
             -- dark-mode-toggle.dark-mode-toggle:
             if: {  header.theme-toggle }

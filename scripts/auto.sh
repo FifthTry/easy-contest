@@ -6,3 +6,14 @@ function build-wasm() {
     popd || return 1
 }
 
+function upload-frontend-debug() {
+    DEBUG_USE_TEJAR_FOLDER="/home/sidd/projects/work/ft/tejar-cache/" \
+      FIFTHTRY_SITE_WRITE_TOKEN="fifthtry-write-token" \
+      DEBUG_API_FIFTHTRY_COM="http://127.0.0.1" \
+      clift upload localhost
+
+    DEBUG_USE_TEJAR_FOLDER="/home/sidd/projects/work/ft/tejar-cache/" \
+    FIFTHTRY_SITE_WRITE_TOKEN="fifthtry-write-token" \
+    DEBUG_API_FIFTHTRY_COM="http://127.0.0.1" \
+    clift upload localhost --file ec.wasm
+}

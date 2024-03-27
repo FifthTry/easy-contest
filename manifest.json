@@ -30,10 +30,40 @@
       "checksum": "4AC02C312CD49078232DCEA74827AD05B49402125CA79BB0FEFE1B62173177E8",
       "size": 1063
     },
+    "ec/Cargo.lock": {
+      "name": "ec/Cargo.lock",
+      "checksum": "EBB625D8EE8203C7BD393051D72A21119486C34627948FF9C8A209210B7052B1",
+      "size": 6714
+    },
+    "ec/Cargo.toml": {
+      "name": "ec/Cargo.toml",
+      "checksum": "4BAF1502A57F2CB36A870E27F23B2846D93578313BC5DC7C08568981B2B3464F",
+      "size": 313
+    },
+    "ec/src/lib.rs": {
+      "name": "ec/src/lib.rs",
+      "checksum": "C5EA4D065FCB4D96B44F5E49BEA7E64C447105A938355ED74D479C365A2E1891",
+      "size": 203
+    },
+    "ec/src/route/mod.rs": {
+      "name": "ec/src/route/mod.rs",
+      "checksum": "64D24226621D43BCFCC31ED48F0BF4AFA060E76311D2DBF244D200C8DA7829DA",
+      "size": 1175
+    },
     "favicon.ico": {
       "name": "favicon.ico",
       "checksum": "65056A1D6C6AAE6E3DC4626E29F4BD4B628B17A8E9CC1D3A5E8FE9F6743F306B",
       "size": 15406
+    },
+    "flake.lock": {
+      "name": "flake.lock",
+      "checksum": "C977FB32E3FDD322D72A4EA04470ED36CB33D590381A6878FA567CFB56A15765",
+      "size": 2461
+    },
+    "flake.nix": {
+      "name": "flake.nix",
+      "checksum": "240DA4EA5667250994F97689805295A0FB491A1962305D0E10871AEC9E9F48E6",
+      "size": 1083
     },
     "index.ftd": {
       "name": "index.ftd",
@@ -54,8 +84,18 @@
       "name": "rules.ftd",
       "checksum": "E45E5DF6FFE4BF062C1111417D0157A194C04948E8BAD77EB221699D9CB4FCB8",
       "size": 99
+    },
+    "scripts/auto.sh": {
+      "name": "scripts/auto.sh",
+      "checksum": "8838A1913C0C04DE52AA5920F724451EED317E9B1910231EE47846329ADF1DC9",
+      "size": 217
+    },
+    "todo.md": {
+      "name": "todo.md",
+      "checksum": "3F51194CC57AFBF677C47A3425228171822EFE28F4F9CC58F3216CFA09A7358B",
+      "size": 28
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "FB70F9F76BD19CF9E093F645F44F786D9B393A84041207C2C00EFD50805EA294"
+  "checksum": "A33388F0B77FD292203CBF467D5BE0AC4518CD954780EE87C53E75158A09D929"
 }

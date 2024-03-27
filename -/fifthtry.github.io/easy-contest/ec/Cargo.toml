@@ -1,0 +1,16 @@
+[package]
+name = "ec"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ft-sdk = "0.1.1"
+serde = {  version = "1", features = ["derive"] }
+serde_json = "1"
+http = "1.0"
+bytes = "1.0"

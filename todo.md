@@ -1,1 +1,2 @@
-- [ ] get a hello from wasm
+- [x] get a hello from wasm
+- [ ] make a db call. setup schema in ft before that

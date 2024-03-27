@@ -1,19 +1,13 @@
 -- import: fastn
 
 -- fastn.package: fifthtry.github.io/easy-contest
-favicon: /-/fifthtry.github.io/easy-contest/favicon.ico
+favicon: /favicon.ico
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
+-- fastn.dependency: fastn-community.github.io/midnight-storm-typography
 
--- fastn.auto-import: fifthtry.github.io/easy-contest/FASTN/ds
+-- fastn.dependency: fastn-community.github.io/design-system
+provided-via: fifthtry.github.io/easy-contest/ds
+
 -- fastn.auto-import: fifthtry.github.io/easy-contest/assets
--- fastn.auto-import: doc-site
-
--- fastn.sitemap:
-
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- fastn.auto-import: fifthtry.github.io/easy-contest/ds

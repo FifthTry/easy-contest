@@ -7,8 +7,8 @@
     },
     "README.md": {
       "name": "README.md",
-      "checksum": "4E408FF4193D2C1879ACCD184D9EA689FDF869CE9186EAABEE1D99BE89530F22",
-      "size": 101
+      "checksum": "1ADC6129885B3C30CA76205B367775E58ADEF06E579835BD9531E9CC036F7E0E",
+      "size": 288
     },
     "assets/ipsum-logo-dark.svg": {
       "name": "assets/ipsum-logo-dark.svg",
@@ -57,5 +57,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "D11E23B38D38F46ACD109923A0B7B593327772B47D15E85B6222734B577D19F7"
+  "checksum": "FB70F9F76BD19CF9E093F645F44F786D9B393A84041207C2C00EFD50805EA294"
 }

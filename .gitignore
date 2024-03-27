@@ -1,4 +1,7 @@
+.direnv
 .packages
 .build
 .DS_Store
 .idea
+ec/target
+ec.wasm

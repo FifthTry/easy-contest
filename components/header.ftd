@@ -1,0 +1,40 @@
+-- import: ui.fifthtry.com/components/dark-mode-toggle
+-- import: ui.fifthtry.com/site-data
+
+-- component header:
+module site-data: site-data
+ds.gap margin: $ds.spaces.vertical-gap.zero
+boolean theme-toggle: true
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.zero
+inset: $ds.spaces.inset-wide.medium
+
+        -- ds.row:
+        inset: $ds.spaces.inset-tall.zero-small
+        spacing: $ds.spaces.horizontal-gap.space-between
+        border: $ds.borders.bottom.small
+        radius: $ds.radius.zero
+
+            -- ftd.image:
+            src: $header.site-data.logo
+            link: $header.site-data.homepage
+
+            -- ds.row:
+            width: hug-content
+            spacing: $ds.spaces.horizontal-gap.medium
+
+                -- ds.copy-regular: Rules
+                link: /rules/
+
+            -- dark-mode-toggle.dark-mode-toggle:
+            if: {  header.theme-toggle }
+
+            -- end: ds.row
+
+        -- end: ds.row
+
+-- end: ds.section-column
+
+-- end: header
+

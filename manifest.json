@@ -2,8 +2,8 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "12CA59423EC97844845A865355679579595C08E21C7474BFCB27D385632C8E36",
-      "size": 455
+      "checksum": "13C24D9CF49AEF99B6AE9CF26CFC7B9B97FA42A8AAA209D132C586B08788B136",
+      "size": 548
     },
     "README.md": {
       "name": "README.md",
@@ -20,10 +20,15 @@
       "checksum": "A227CF22E798ACFB2D01B6352FC22A28047444F028AF05440C6CE6F9499C0EDF",
       "size": 15494
     },
+    "components/header.ftd": {
+      "name": "components/header.ftd",
+      "checksum": "9B2C664F66ED2948E2449159B4C2390473F5A36C95116B0D119CA93EBAD051B6",
+      "size": 989
+    },
     "ds.ftd": {
       "name": "ds.ftd",
-      "checksum": "B1AAD3CCA6C97532676C291D9FE8C8792803543BBB66986BEC10F50DF27AD180",
-      "size": 999
+      "checksum": "4AC02C312CD49078232DCEA74827AD05B49402125CA79BB0FEFE1B62173177E8",
+      "size": 1063
     },
     "favicon.ico": {
       "name": "favicon.ico",
@@ -32,10 +37,25 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "BB9218727B7CFB0571EC2BA91AE0EC70E00C8C48FCD2CCA0E87BB1733553B0A1",
-      "size": 59
+      "checksum": "FB3923216E6D1BCDAD11344E1627D901F2B6B6DD25345574059DAA9D26297D37",
+      "size": 89
+    },
+    "pages/main.ftd": {
+      "name": "pages/main.ftd",
+      "checksum": "D553F706875D0FB656AFF304EB5B00E07D7ECE7D2C1D513DD23653E3ACC53BE2",
+      "size": 194
+    },
+    "pages/rules.ftd": {
+      "name": "pages/rules.ftd",
+      "checksum": "7869B0C46E5A97081B85C973D900CEBF803AFCABB3BF992DECC2C39FF2309B3F",
+      "size": 432
+    },
+    "rules.ftd": {
+      "name": "rules.ftd",
+      "checksum": "E45E5DF6FFE4BF062C1111417D0157A194C04948E8BAD77EB221699D9CB4FCB8",
+      "size": 99
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "4773D34D318A25539AC175FFB281399ADFB5032211E5C0316F859ACD00773BF3"
+  "checksum": "3BF6DD1E36DBDB0E45D1FE09382B0317DC91AF0DE1CFACBF0C2069D04D5F490B"
 }

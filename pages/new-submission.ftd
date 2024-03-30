@@ -1,0 +1,153 @@
+-- import: ui.fifthtry.com/utils
+-- import: ui.fifthtry.com/records/user-data as ud
+-- import: ui.fifthtry.com/components/page as p
+-- import: fifthtry.github.io/easy-contest/action/new-contest
+
+-- component page:
+caption page-title:
+module action: new-contest
+ud.user-data user-data:
+private string $sub-title: *$ftd.empty
+private string $sub-deploy-url: *$ftd.empty
+private string $sub-source-url: *$ftd.empty
+private string $sub-message: *$ftd.empty
+
+    -- p.page: $page.page-title
+    user-data: $page.user-data
+
+    -- ds.heading-medium: New Submission
+
+	-- ds.section-column:
+	inset: $ds.spaces.inset-tall.large
+	
+        -- ds.column:
+        width.fixed.px if { ftd.device != "mobile" }: 508
+        align-content: top-left
+        spacing: $ds.spaces.vertical-gap.large
+        radius: $ds.radius.medium
+        inset: $ds.spaces.inset-square.large
+        border: $ds.borders.uniform.small
+        background.solid: $ds.colors.background.step-1
+
+            -- ds.column:
+            spacing: $ds.spaces.vertical-gap.extra-extra-small
+            align-content: left
+
+                -- ds.copy-small: Title
+
+                -- ftd.text-input:
+                placeholder: Submissions Title
+                type: text
+                width: fill-container
+                height.fixed.px: 40
+                border-radius.px: 8
+                background.solid: transparent
+                border-width.px: 1
+                border-color: $inherited.colors.border
+                padding.px: 8
+                color: $inherited.colors.text-strong
+                $on-input$: $ftd.set-string($a = $page.sub-title, v = $VALUE)
+                $on-input$: $utils.set-null($var = $page.action.title-error)
+
+                -- ds.copy-small: $page.action.title-error
+                color: $ds.colors.error.text
+                if: { page.action.title-error != NULL }
+
+            -- end: ds.column
+
+            -- ds.column:
+            spacing: $ds.spaces.vertical-gap.extra-extra-small
+            align-content: left
+
+                -- ds.copy-small: Deploy Url
+
+                -- ftd.text-input:
+                placeholder: Deploy Url
+                type: text
+                width: fill-container
+                height.fixed.px: 40
+                border-radius.px: 8
+                background.solid: transparent
+                border-width.px: 1
+                border-color: $inherited.colors.border
+                padding.px: 8
+                color: $inherited.colors.text-strong
+                $on-input$: $ftd.set-string($a = $page.sub-deploy-url, v = $VALUE)
+                $on-input$: $utils.set-null($var = $page.action.deploy-url-error)
+
+                -- ds.copy-small: $page.action.deploy-url-error
+                color: $ds.colors.error.text
+                if: { page.action.deploy-url-error != NULL }
+
+            -- end: ds.column
+
+            -- ds.column:
+            spacing: $ds.spaces.vertical-gap.extra-extra-small
+            align-content: left
+
+                -- ds.copy-small: Source Url
+
+                -- ftd.text-input:
+                placeholder: Source url
+                type: text
+                width: fill-container
+                height.fixed.px: 40
+                border-radius.px: 8
+                background.solid: transparent
+                border-width.px: 1
+                border-color: $inherited.colors.border
+                padding.px: 8
+                color: $inherited.colors.text-strong
+                $on-input$: $ftd.set-string($a = $page.sub-source-url, v = $VALUE)
+                $on-input$: $utils.set-null($var = $page.action.source-url-error)
+
+                -- ds.copy-small: $page.action.source-url-error
+                color: $ds.colors.error.text
+                if: { page.action.source-url-error != NULL }
+
+            -- end: ds.column
+
+            -- ds.column:
+            spacing: $ds.spaces.vertical-gap.extra-extra-small
+            align-content: left
+
+                -- ds.copy-small: Message
+
+                -- ftd.text-input:
+                placeholder: Any message for us?
+                type: text
+                width: fill-container
+                multiline: true
+                height.fixed.px: 40
+                border-radius.px: 8
+                background.solid: transparent
+                border-width.px: 1
+                border-color: $inherited.colors.border
+                padding.px: 8
+                color: $inherited.colors.text-strong
+                $on-input$: $ftd.set-string($a = $page.sub-message, v = $VALUE)
+                $on-input$: $utils.set-null($var = $page.action.message-error)
+
+                -- ds.copy-small: $page.action.message-error
+                color: $ds.colors.error.text
+                if: { page.action.message-error != NULL }
+
+            -- end: ds.column
+
+            -- ds.row:
+            spacing: $ds.spaces.horizontal-gap.small
+
+                -- ds.primary-button: Save
+                width: wide
+                radius: curved
+                $on-click$: $page.action.submit-values(title = $page.sub-title, deploy_url = $page.sub-deploy-url, source_url = $page.sub-source-url, message = $page.sub-message)
+
+            -- end: ds.row
+
+        -- end: ds.column
+
+	-- end: ds.section-column
+
+    -- end: p.page
+
+-- end: page

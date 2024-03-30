@@ -1,0 +1,38 @@
+-- import: fifthtry.github.io/easy-contest/records/submissions as s
+
+-- component submission-box:
+s.submission sub:
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: $ds.colors.background.step-2
+width: fill-container
+radius: $ds.radius.medium
+
+-- ds.column:
+
+-- ds.heading-small: $submission-box.sub.title
+color: $ds.colors.text-strong
+align: left
+
+-- ds.copy-large: $submission-box.sub.message
+align: left
+
+-- ds.row:
+
+-- ds.copy-regular: $submission-box.sub.deploy_url
+align: left
+
+-- ds.copy-regular: |
+
+-- ds.copy-regular: $submission-box.sub.source_url
+align: left
+
+-- end: ds.row
+
+
+-- end: ds.column
+
+-- end: ds.container
+
+-- end: submission-box

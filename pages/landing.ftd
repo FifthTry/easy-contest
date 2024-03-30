@@ -1,0 +1,182 @@
+-- import: ui.fifthtry.com/components/page as p
+-- import: ui.fifthtry.com/records/user-data as ud
+
+-- component page:
+caption page-title:
+string submissions-link: /contest/submissions/
+ud.user-data user-data:
+string start-date: TBD
+string end-data: TBD
+
+-- p.page: $page.page-title
+user-data: $page.user-data
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.extra-extra-large
+align-content: top-left
+
+-- ds.heading-large: Build Your Website on FifthTry and Win a Free Domain
+align: center
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.extra-large
+
+-- ds.row:
+spacing: $ds.spaces.horizontal-gap.extra-large
+align-content: center
+
+-- ds.label-text: Start Date:
+value: $page.start-date
+placement: horizontal
+
+-- ds.label-text: End Date:
+value: $page.end-date
+placement: horizontal
+align-content: right
+
+-- end: ds.row
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.extra-large
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: $ds.colors.background.step-2
+width: fill-container
+radius: $ds.radius.medium
+
+-- ds.column:
+
+-- ds.heading-small: About the Contest
+color: $ds.colors.text-strong
+align: left
+
+-- ds.copy-large: 
+
+Remember fastn, our 
+open-source programming language for web development? Well, now 
+it's joined by our hosting solution and editor, all live on 
+[fifthtry.com](https://www.fifthtry.com/). And, thanks to our 
+latest [design system package](https://github.com/fastn-community/design-system/),
+we have made it easier than ever to build a custom website with fastn. To share this 
+excitement with you, we're kicking off a contest to give you a 
+shot at winning a free domain for your website.
+
+-- end: ds.column
+
+-- end: ds.container
+
+-- ds.column:
+
+-- ds.heading-medium: Ready to Win Your Free Domain?
+
+-- ds.primary-button: **Signup for a Fifthtry account now!**
+if: { !just-user-data.ud.is-logged-in }
+link: /-/auth/create-account/?next=/contest/
+size: large
+radius: curved
+
+-- ds.primary-button: **Submit your website**
+if: { just-user-data.ud.is-logged-in }
+link: $page.submissions-link
+size: large
+radius: curved
+
+-- end: ds.column
+
+
+-- end: ds.column
+
+-- ds.column:
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: $ds.colors.background.step-2
+width: fill-container
+radius: $ds.radius.medium
+
+-- ds.column:
+
+-- ds.heading-small: How to participate
+color: $ds.colors.text-strong
+
+-- ds.copy-large:
+
+1) Click on Sign Up and create your FifthTry account. 
+
+2) Once logged in, click on `Create New Site`. Follow the steps in this 
+[tutorial](link to video) to build your website.
+
+3) After completing your site, visit the 
+[submission page](www.contest-submission-page.com). Fill in all the necessary 
+details and click submit. Ensure that you are signed in to your 
+account during this process.
+
+-- end: ds.column
+
+-- end: ds.container
+
+-- end: ds.column
+
+-- ds.column:
+
+-- ds.container:
+inset: $ds.spaces.inset-square.large
+background.solid: $ds.colors.background.step-2
+width: fill-container
+radius: $ds.radius.medium
+
+-- ds.column:
+
+-- ds.heading-small: Details and Guidelines
+color: $ds.colors.text-strong
+align: center
+
+-- ds.column:
+align-content: left
+
+-- ds.copy-large:
+
+1) Top 100 websites will win a free domain. 
+
+2) Results Announcement on (date) at www.fifthtry/free-domain-contest.com
+
+3) To be eligible, ensure  timely submission and a maximum of 2 entry per participant.
+
+-- end: ds.column
+
+-- end: ds.column
+
+-- end: ds.container
+
+-- end: ds.column
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: p.page
+
+-- end: page
+
+
+
+
+
+-- ftd.shadow n:
+color: #EC8943
+blur.px: 5
+spread.px: 3
+x-offset.px: 4
+y-offset.px: 6
+
+
+
+-- ftd.shadow a:
+color: #5C2860
+blur.px: 5
+spread.px: 3
+x-offset.px: -4
+y-offset.px: -6
+
+

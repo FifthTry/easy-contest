@@ -1,0 +1,40 @@
+-- import: ui.fifthtry.com/components/page as p
+-- import: fifthtry.github.io/easy-contest/records/submissions as s
+-- import: fifthtry.github.io/easy-contest/components/submission-box as box
+
+-- component page:
+caption page-title:
+ud.user-data user-data:
+s.submission list submissions:
+string new-submissions-link: /contest/submissions/new/
+
+-- p.page: $page.page-title
+user-data: $page.user-data
+
+-- ds.row:
+
+-- ds.heading-medium: Your Submissions
+
+-- ds.primary-button: New
+link: $page.new-submissions-link
+
+-- end: ds.row
+
+-- ds.section-column:
+margin: $ds.spaces.vertical-gap.extra-extra-large
+align-content: top-left
+
+-- ds.column:
+spacing: $ds.spaces.vertical-gap.extra-large
+
+-- box.submission-box:
+for: $sub in $page.submissions
+sub: $sub
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: p.page
+
+-- end: page

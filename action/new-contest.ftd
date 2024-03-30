@@ -1,0 +1,18 @@
+-- optional string $title-error:
+-- optional string $deploy-url-error:
+-- optional string $source-url-error:
+-- optional string $message-error:
+
+-- ftd.http-options opts:
+redirect: follow
+method: POST
+fastn-module: www.fifthtry.com/action/new-contest
+
+-- void submit-values(title, deploy-url, source-url, message):
+string title:
+string deploy_url:
+string source_url:
+string message:
+ftd.http-options opts: $opts
+
+console.log("data: " + title + " " + deploy_url + " " + source_url)

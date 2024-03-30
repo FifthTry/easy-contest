@@ -2,13 +2,18 @@
   "files": {
     "FASTN.ftd": {
       "name": "FASTN.ftd",
-      "checksum": "13C24D9CF49AEF99B6AE9CF26CFC7B9B97FA42A8AAA209D132C586B08788B136",
-      "size": 548
+      "checksum": "3DCC652329A342885225862FF0556C6DBDFE837AB5224A39BB9AEEE1EDD78B87",
+      "size": 604
     },
     "README.md": {
       "name": "README.md",
       "checksum": "1ADC6129885B3C30CA76205B367775E58ADEF06E579835BD9531E9CC036F7E0E",
       "size": 288
+    },
+    "action/new-contest.ftd": {
+      "name": "action/new-contest.ftd",
+      "checksum": "A55E156C64198A709EC8D1A4579D26310AE912747F632F363EFEC51129D2BF1A",
+      "size": 481
     },
     "assets/ipsum-logo-dark.svg": {
       "name": "assets/ipsum-logo-dark.svg",
@@ -24,6 +29,11 @@
       "name": "components/header.ftd",
       "checksum": "F3C7153E8ABF931657D8A2B068F2BAAF6D6057D04798F1E01F9364DA280A09E6",
       "size": 1100
+    },
+    "components/submission-box.ftd": {
+      "name": "components/submission-box.ftd",
+      "checksum": "3F8991B84CD1A4CC4DBCE1319C54C4CCE271CD4EA1A2BACD36848A7867FA9C66",
+      "size": 675
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -67,35 +77,45 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "FB3923216E6D1BCDAD11344E1627D901F2B6B6DD25345574059DAA9D26297D37",
-      "size": 89
+      "checksum": "810D6592778BC1E79705ADB1EFFF553A8A0A5CF52861A44A72DF48C23CEDFC71",
+      "size": 302
     },
-    "pages/main.ftd": {
-      "name": "pages/main.ftd",
-      "checksum": "D553F706875D0FB656AFF304EB5B00E07D7ECE7D2C1D513DD23653E3ACC53BE2",
-      "size": 194
+    "pages/admin.ftd": {
+      "name": "pages/admin.ftd",
+      "checksum": "C4D680BAE534DA9DF854517822EF7EBB4340E54B71601C7C4193DEF312AAD2F7",
+      "size": 764
     },
-    "pages/rules.ftd": {
-      "name": "pages/rules.ftd",
-      "checksum": "7869B0C46E5A97081B85C973D900CEBF803AFCABB3BF992DECC2C39FF2309B3F",
-      "size": 432
+    "pages/landing.ftd": {
+      "name": "pages/landing.ftd",
+      "checksum": "4937C118B12C34F17C6D675B1F01E741B84B009B4B1641C4CF8A1CEB3F6C83B0",
+      "size": 3704
     },
-    "rules.ftd": {
-      "name": "rules.ftd",
-      "checksum": "E45E5DF6FFE4BF062C1111417D0157A194C04948E8BAD77EB221699D9CB4FCB8",
-      "size": 99
+    "pages/new-submission.ftd": {
+      "name": "pages/new-submission.ftd",
+      "checksum": "301D1D4CDDCB1F8E5F61DF5F1F9B59F6A4301255EF299D16B4C07536D68FAC3D",
+      "size": 5308
+    },
+    "pages/submissions.ftd": {
+      "name": "pages/submissions.ftd",
+      "checksum": "ABEF3DE1CCB274BD58B7DCC75E0908AD12417CF034B608AD0C354387FB20BEEB",
+      "size": 824
+    },
+    "records/submission.ftd": {
+      "name": "records/submission.ftd",
+      "checksum": "A71C4EC723F1E5363176C83DED6C074724DE11655930E0F3555B52EF279045C9",
+      "size": 139
     },
     "scripts/auto.sh": {
       "name": "scripts/auto.sh",
-      "checksum": "8838A1913C0C04DE52AA5920F724451EED317E9B1910231EE47846329ADF1DC9",
-      "size": 217
+      "checksum": "539E493FCE5B06595355400D9DF6ED551DA5C89F5592B805BC4895638E71035B",
+      "size": 680
     },
     "todo.md": {
       "name": "todo.md",
-      "checksum": "3F51194CC57AFBF677C47A3425228171822EFE28F4F9CC58F3216CFA09A7358B",
-      "size": 28
+      "checksum": "5046D4126FB8222385DB2DEB2DDAE643ABE908DE9494FC919A497F2F7373CD51",
+      "size": 81
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "A33388F0B77FD292203CBF467D5BE0AC4518CD954780EE87C53E75158A09D929"
+  "checksum": "564EA2B2FAA85CAF971163D961507D3DE1E10C3FC36500980FDBA9BAD298DB09"
 }

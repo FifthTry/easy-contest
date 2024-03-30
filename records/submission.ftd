@@ -1,0 +1,9 @@
+-- record submission:
+integer id:
+string title:
+string deploy_url:
+string source_url:
+string message:
+integer user_id:
+boolean is_winner:
+

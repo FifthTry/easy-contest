@@ -13,3 +13,7 @@ provided-via: fifthtry.github.io/easy-contest/ds
 
 -- fastn.auto-import: fifthtry.github.io/easy-contest/assets
 -- fastn.auto-import: fifthtry.github.io/easy-contest/ds
+
+-- fastn.url-mappings:
+
+/b/* -> wasm+proxy://ec.wasm/*

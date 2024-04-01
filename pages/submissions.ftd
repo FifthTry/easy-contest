@@ -1,6 +1,7 @@
 -- import: ui.fifthtry.com/components/page as p
--- import: fifthtry.github.io/easy-contest/records/submissions as s
+-- import: fifthtry.github.io/easy-contest/records/submission as s
 -- import: fifthtry.github.io/easy-contest/components/submission-box as box
+-- import: ui.fifthtry.com/records/user-data as ud
 
 -- component page:
 caption page-title:

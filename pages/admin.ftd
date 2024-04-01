@@ -1,15 +1,15 @@
 -- import: ui.fifthtry.com/components/page as p
 -- import: ui.fifthtry.com/records/user-data as ud
 -- import: fifthtry.github.io/easy-contest/components/submission-box as box
--- import: fifthtry.github.io/easy-contest/records/submissions as s
+-- import: fifthtry.github.io/easy-contest/records/submission as s
 
--- component admin-page:
+-- component page:
 caption page-title:
 ud.user-data user-data:
 s.submission list submissions:
 
--- p.page: $admin-page.page-title
-user-data: $admin-page.user-data
+-- p.page: $page.page-title
+user-data: $page.user-data
 
 -- ds.heading-medium: Review Submissions
 
@@ -21,7 +21,7 @@ align-content: top-left
 spacing: $ds.spaces.vertical-gap.extra-large
 
 -- box.submission-box:
-for: $sub in $admin-page.submissions
+for: $sub in $page.submissions
 sub: $sub
 
 -- end: ds.column
@@ -30,4 +30,4 @@ sub: $sub
 
 -- end: p.page
 
--- end: admin-page
+-- end: page

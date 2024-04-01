@@ -1,4 +1,4 @@
--- import: fifthtry.github.io/easy-contest/records/submissions as s
+-- import: fifthtry.github.io/easy-contest/records/submission as s
 
 -- component submission-box:
 s.submission sub:

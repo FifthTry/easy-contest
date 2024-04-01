@@ -32,8 +32,8 @@
     },
     "components/submission-box.ftd": {
       "name": "components/submission-box.ftd",
-      "checksum": "3F8991B84CD1A4CC4DBCE1319C54C4CCE271CD4EA1A2BACD36848A7867FA9C66",
-      "size": 675
+      "checksum": "6589A00B7A0D1CD0726019895E929AF8ECB16953BBDDBB7141CBBF332169EF4D",
+      "size": 674
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -82,13 +82,13 @@
     },
     "pages/admin.ftd": {
       "name": "pages/admin.ftd",
-      "checksum": "C4D680BAE534DA9DF854517822EF7EBB4340E54B71601C7C4193DEF312AAD2F7",
-      "size": 764
+      "checksum": "8530CBF56DAA4B06EC288DCBE8345184FB3BAD7F64077DEE47E8F520DC67D760",
+      "size": 733
     },
     "pages/landing.ftd": {
       "name": "pages/landing.ftd",
-      "checksum": "4937C118B12C34F17C6D675B1F01E741B84B009B4B1641C4CF8A1CEB3F6C83B0",
-      "size": 3704
+      "checksum": "FB5EB9DF44E8AA8E7470BEF557963E7BF3BCB7C87AF3E5BFABA2A79C8EDBF073",
+      "size": 3698
     },
     "pages/new-submission.ftd": {
       "name": "pages/new-submission.ftd",
@@ -97,8 +97,8 @@
     },
     "pages/submissions.ftd": {
       "name": "pages/submissions.ftd",
-      "checksum": "ABEF3DE1CCB274BD58B7DCC75E0908AD12417CF034B608AD0C354387FB20BEEB",
-      "size": 824
+      "checksum": "BCCCDCD2504E5A99691CF6A66547C05CF9800B7B00019DC2C7ADFAC5B18E30E2",
+      "size": 874
     },
     "records/submission.ftd": {
       "name": "records/submission.ftd",
@@ -117,5 +117,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "564EA2B2FAA85CAF971163D961507D3DE1E10C3FC36500980FDBA9BAD298DB09"
+  "checksum": "65470F80A0F090B1AB1DE582B711312B6E2B9188DA374B27A221B43627AC8F4E"
 }

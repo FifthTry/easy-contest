@@ -6,7 +6,7 @@ caption page-title:
 string submissions-link: /contest/submissions/
 ud.user-data user-data:
 string start-date: TBD
-string end-data: TBD
+string end-date: TBD
 
 -- p.page: $page.page-title
 user-data: $page.user-data
@@ -71,13 +71,13 @@ shot at winning a free domain for your website.
 -- ds.heading-medium: Ready to Win Your Free Domain?
 
 -- ds.primary-button: **Signup for a Fifthtry account now!**
-if: { !just-user-data.ud.is-logged-in }
+if: { !page.user-data.is-logged-in }
 link: /-/auth/create-account/?next=/contest/
 size: large
 radius: curved
 
 -- ds.primary-button: **Submit your website**
-if: { just-user-data.ud.is-logged-in }
+if: { page.user-data.is-logged-in }
 link: $page.submissions-link
 size: large
 radius: curved

@@ -74,10 +74,12 @@ name = "ec"
 version = "0.1.0"
 dependencies = [
  "bytes",
+ "diesel",
  "ft-sdk",
  "http",
  "serde",
  "serde_json",
+ "thiserror",
 ]
 
 [[package]]

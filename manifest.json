@@ -42,23 +42,53 @@
     },
     "ec/Cargo.lock": {
       "name": "ec/Cargo.lock",
-      "checksum": "EBB625D8EE8203C7BD393051D72A21119486C34627948FF9C8A209210B7052B1",
-      "size": 6714
+      "checksum": "899252618EA9621323DEE239F16D9A61AE2FB4504E068D8E0B8A24FE9B36440E",
+      "size": 6739
     },
     "ec/Cargo.toml": {
       "name": "ec/Cargo.toml",
-      "checksum": "4BAF1502A57F2CB36A870E27F23B2846D93578313BC5DC7C08568981B2B3464F",
-      "size": 313
+      "checksum": "3BA00D61ACC6AB4F9F013D90CC4BC17B282B997D75DDCE96EA35FE2EC6EE2C57",
+      "size": 342
+    },
+    "ec/migrations/2024-04-03-105201_ec_tables/down.sql": {
+      "name": "ec/migrations/2024-04-03-105201_ec_tables/down.sql",
+      "checksum": "F65A8DCE2BD5E4D97F8B1B4453CDF660A5B100A68D03FE4B668A5622C4EBC195",
+      "size": 123
+    },
+    "ec/migrations/2024-04-03-105201_ec_tables/up.sql": {
+      "name": "ec/migrations/2024-04-03-105201_ec_tables/up.sql",
+      "checksum": "D6C484704A1D4F7A1BF4DC2038FE4C0FAA730C23EBB7DED1C303A29BC5D66EDC",
+      "size": 795
     },
     "ec/src/lib.rs": {
       "name": "ec/src/lib.rs",
-      "checksum": "C5EA4D065FCB4D96B44F5E49BEA7E64C447105A938355ED74D479C365A2E1891",
-      "size": 203
+      "checksum": "BAC1F55C90D4C968367881A23068D8364EF964B825EC1924770FE9F7E14EE95B",
+      "size": 297
+    },
+    "ec/src/route/contest/mod.rs": {
+      "name": "ec/src/route/contest/mod.rs",
+      "checksum": "9F8BED48D27ECEEBC6DC6B52E3379F752465FCD2DE62A1B2DB2912EB77EE8A6C",
+      "size": 2358
+    },
+    "ec/src/route/contest/submission.rs": {
+      "name": "ec/src/route/contest/submission.rs",
+      "checksum": "7DBB03FB02494DB2C2842190F405EF9681E46B380EDB1094D5B9833E8C4EF4CF",
+      "size": 5952
     },
     "ec/src/route/mod.rs": {
       "name": "ec/src/route/mod.rs",
-      "checksum": "64D24226621D43BCFCC31ED48F0BF4AFA060E76311D2DBF244D200C8DA7829DA",
-      "size": 1175
+      "checksum": "2AE4046A936BFBBC37C2086B360EAA50AFC6C8F8F47BC1A130BD12B10A449880",
+      "size": 560
+    },
+    "ec/src/schema.rs": {
+      "name": "ec/src/schema.rs",
+      "checksum": "26A237F8272EA24DA1FE4F734B18465951A0448C8AA0BF18BCA32F1116588ECE",
+      "size": 724
+    },
+    "ec/src/urls.rs": {
+      "name": "ec/src/urls.rs",
+      "checksum": "775C8604AACFC4EBB29F98EF06025199BF5235CB7D6DADEC9D985EBB8CEF0E43",
+      "size": 84
     },
     "favicon.ico": {
       "name": "favicon.ico",
@@ -117,5 +147,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "65470F80A0F090B1AB1DE582B711312B6E2B9188DA374B27A221B43627AC8F4E"
+  "checksum": "4EE1900BEC83AE1E2F1AA3828655D7F2B7E6E362E55E0E1E8976210F01CCEB51"
 }

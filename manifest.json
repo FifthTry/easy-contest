@@ -40,6 +40,11 @@
       "checksum": "4AC02C312CD49078232DCEA74827AD05B49402125CA79BB0FEFE1B62173177E8",
       "size": 1063
     },
+    "ec.wasm": {
+      "name": "ec.wasm",
+      "checksum": "C395F22D5E2EABC705943BA84BD6FAD41D2E418A4EBF3B7F66B2789D0F3F2DF4",
+      "size": 1937183
+    },
     "ec/Cargo.lock": {
       "name": "ec/Cargo.lock",
       "checksum": "899252618EA9621323DEE239F16D9A61AE2FB4504E068D8E0B8A24FE9B36440E",
@@ -147,5 +152,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/easy-contest/zip/refs/heads/main",
-  "checksum": "4EE1900BEC83AE1E2F1AA3828655D7F2B7E6E362E55E0E1E8976210F01CCEB51"
+  "checksum": "20A5EB59298EF2DDD4B8B96B0964ACC84A9F1BB642775E17703AC27C44209515"
 }

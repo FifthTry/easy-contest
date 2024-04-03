@@ -16,4 +16,4 @@ provided-via: fifthtry.github.io/easy-contest/ds
 
 -- fastn.url-mappings:
 
-/b/* -> wasm+proxy://ec.wasm/*
+/ec/* -> wasm+proxy://ec.wasm/*

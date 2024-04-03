@@ -15,4 +15,11 @@ string source_url:
 string message:
 ftd.http-options opts: $opts
 
-console.log("data: " + title + " " + deploy_url + " " + source_url)
+ftd.http(
+    "/ec/contest/submissions/new/",
+    opts,
+    ("title", title),
+    ("deploy_url", deploy_url),
+    ("source_url", source_url),
+    ("message", message),
+)

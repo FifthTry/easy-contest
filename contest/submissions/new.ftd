@@ -1,0 +1,7 @@
+-- import: fifthtry.github.io/easy-contest/pages/new-submission as ns
+-- import: fifthtry.github.io/easy-contest/action/new-contest
+-- import: fifthtry.github.io/easy-contest/ud
+
+-- ns.page: New Submission | domains contest | Fifthtry
+action: new-contest
+user-data: $ud.user

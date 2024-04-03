@@ -1,16 +1,9 @@
--- import: fifthtry.github.io/easy-contest/pages/main
+-- import: fifthtry.github.io/easy-contest/pages/landing
+-- import: fifthtry.github.io/easy-contest/ud
+
 -- import: fastn/processors as pr
 
--- ftd.text: TODO: add landing page and other scenarios like ui.fifthtry.com
+-- landing.page: domains contest | FifthTry
+submissions-link: /contest/submissions/
+user-data: $ud.user
 
-
-;;-- record page-data:
-;;string msg:
-
-;;-- record msg:
-;;page-data page:
-
-
-;;-- msg data:
-;;$processor$: pr.http
-;;url: /b/wasm-test/

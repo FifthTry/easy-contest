@@ -1,0 +1,18 @@
+-- import: ui.fifthtry.com/records/user-data as ud
+-- import: fastn/processors as pr
+
+-- ud.user-data user:
+notifications: 0
+username: $proc-user.username
+name: $proc-user.name
+is-logged-in: $proc-user.is-logged-in
+
+-- user-details proc-user:
+$processor$: pr.user-details
+
+-- record user-details:
+boolean is-logged-in:
+string name:
+string email:
+string username:
+boolean verified-email:

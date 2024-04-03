@@ -1,0 +1,34 @@
+-- import: fastn/processors as pr
+
+-- import: fifthtry.github.io/easy-contest/pages/admin
+-- import: fifthtry.github.io/easy-contest/records/submission as s
+-- import: fifthtry.github.io/easy-contest/pages/submissions
+-- import: fifthtry.github.io/easy-contest/ud
+
+-- submissions.page: Your Submissions | domains contest | FifthTry
+if: { !data.page.is_admin }
+user-data: $ud.user
+submissions: $data.page.submissions
+new-submissions-link: /contest/submissions/new/
+
+-- admin.page: Review Submissions | domains contest | FifthTry
+if: { data.page.is_admin }
+user-data: $ud.user
+submissions: $data.page.submissions
+
+
+
+-- record page-data:
+s.submission list submissions:
+boolean is_admin:
+
+-- record submission-response:
+page-data page:
+
+-- submission-response data:
+$processor$: pr.http
+method: GET
+;; TODO: this is a bug, the url shouldn't be like this
+;; the http processor is chopping the first "ft2" for some reason
+url: /ec/ec/contest/submissions/
+

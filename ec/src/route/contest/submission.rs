@@ -108,7 +108,20 @@ impl ft_sdk::Action<ec::Contest, ec::ContestError> for SubmissionPayload {
         // see: `scripts/setup-contest.py` in ft repo
         let contest_id: i64 = ec_contest::table
             .select(ec_contest::id)
-            .first(&mut c.conn)?;
+            .first(&mut c.conn)
+            .map_err(|e| {
+                ft_sdk::println!("error: {:?}", e);
+                ft_sdk::println!(
+                    "Current implementation requires one \
+                        manual entry to be put in `ec_contest` table."
+                );
+
+                ec::ContestError::UsageError(
+                    "Current implementation requires one \
+                        manual entry to be put in `ec_contest` table."
+                        .to_string(),
+                )
+            })?;
 
         Ok(Self {
             title,

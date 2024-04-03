@@ -48,6 +48,9 @@ impl ft_sdk::Layout for Contest {
             ContestError::Unauthorized(message) => {
                 ft_sdk::not_found!("unauthorized error: {message}")
             }
+            ContestError::UsageError(message) => {
+                ft_sdk::not_found!("{message}")
+            }
         }
     }
 }
@@ -64,6 +67,8 @@ pub enum ContestError {
     CantDeserializeInput(#[from] serde_json::Error),
     #[error("not authorised: {0}")]
     Unauthorized(String),
+    #[error("usage error: {0}")]
+    UsageError(String),
 }
 
 impl ContestError {
